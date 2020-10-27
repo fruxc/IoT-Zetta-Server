@@ -1,0 +1,7 @@
+node .\index.js
+
+curl http://127.0.0.1:1337/servers/LED%20Server/devices/b248f37b-e0bc-4bb4-850d-2ece690daab2
+
+Remove-item alias:curl
+
+curl -i -X POST http://127.0.0.1:1337/servers/LED%20Server/devices/b248f37b-e0bc-4bb4-850d-2ece690daab2 -d 'action=turn-on'
