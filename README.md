@@ -1,4 +1,5 @@
 # IoT-zetta-server
+
 IoT Servers using ZettaJs
 
 ## To Run
@@ -8,7 +9,7 @@ npm install
 npm start
 ```
 
-## set device id
+## Set device id after devices/
 
 ```bash
 curl http://127.0.0.1:1337/servers/LED%20Server/devices/b248f37b-e0bc-4bb4-850d-2ece690daab2
